@@ -3,7 +3,7 @@
 provider "aws" {
   version = "~> 2.7"
 
-  shared_credentials_file = "/Users/yomiogunyinka/.aws/credentials"
+  shared_credentials_file = "/../../.aws/credentials"
   profile                 = "dev-jcs"
   region                  = "${var.vpc_region}"
 }
